@@ -106,11 +106,14 @@ h5{
 .birth{
     font-weight: normal;
     font-size: 20px;
+    color: grey;
+   
 }
 .gender{
     font-weight: normal;
     padding-top: 10px;
     font-size: 20px;
+    color: gray;
 }
 .terms{
     font-weight: normal;

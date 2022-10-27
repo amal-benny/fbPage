@@ -43,13 +43,16 @@
                     <h1>Create an account</h1>
                     <h5>It's quick and easy</h5>
                 </div>
-                <form> 
-                    <input  class="firstname"type="text" placeholder="First Name">
-                    <input  class="surname" type="text" placeholder="Surname">
+                <form id="signup">
+                     
+                    <input   name="fname" class="firstname"type="text" placeholder="First Name">
+                    <input  name="sname" class="surname" type="text" placeholder="Surname">
                     <input  class="mobile" type="text" placeholder="Mobile number or email address">
                     <input  class="password" type="text"  placeholder="New password">
                     <br>
-                    <p class="birth">Birthday</p>
+                    <br>
+                    <label class="birth">Birthday</label>
+                    <br><br>
                    <select class="day">
                         <option>Day</option>
                         <option>1</option>
@@ -68,14 +71,15 @@
                         <option>2001</option>
                         <option>2002</option>
                     </select>
+                    <br><br>
+                    <label class="gender">Gender</label><br>
                     <br>
-                    <p class="gender">Gender</p><br>
                     <span class="radio">                   
-                    <input type="radio">
-                    <label>Male</label>
-                    <input type="radio">
+                    <input name="gender" type="radio">
+                    <label >Male</label>
+                    <input name="gender" type="radio">
                     <label>Female</label>                    
-                    <input type="radio">
+                    <input name="gender" type="radio">
                     <label>Custom</label>
                     </span> 
                     <br>
@@ -87,5 +91,10 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+   <script src="script.js"></script>
+  
 </body>
+
 </html>
