@@ -103,6 +103,12 @@ h5{
     border-radius: 4px;
     width: 357px;
 }
+.Cpassword{
+    margin-top: 10px;
+    height: 28px;
+    border-radius: 4px;
+    width: 357px;
+}
 .birth{
     font-weight: normal;
     font-size: 20px;
