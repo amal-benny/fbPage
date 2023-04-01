@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(241, 240, 240);
+}
+.fb{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: #095afb;
+}
+.box{
+    height: 600px;
+    width: 450px;
+    background: rgb(255, 255, 255);
+    margin-left: 540px;
+    border-radius: 8px;
+}
+.create{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.quick{
+    text-align: center;
+    color: rgb(146, 143, 143);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.name{
+    margin-top: 20px;
+}
+.fname{
+    height: 35px;
+    width: 190px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.sname{
+    height: 35px;
+    width: 190px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.email{
+    height: 40px;
+    width:396px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.pass{
+    height: 40px;
+    width:396px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.bday{
+    margin-top: 15px;
+    margin-left: 25px;
+    color: rgb(81, 80, 80);
+}
+.bspace{
+    margin-top: 5px;
+}
+.day{
+    height: 35px;
+    width:130px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.month{
+    height: 35px;
+    width:130px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.year{
+    height: 35px;
+    width:128px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.genderhead{
+    margin-top: 10px;
+    margin-left: 25px;
+    color: rgb(81, 80, 80);
+}
+.gspace{
+    margin-top: 5px;
+}
+.male{
+  
+    height: 35px;
+    width:128px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.female{
+    height: 35px;
+    width:128px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.custom{
+    height: 35px;
+    width:128px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.learn {
+    text-decoration: none;
+    color: blue;
+}
+.service{
+    margin-top: 15px;
+    margin-left: 25px;
+    color: rgb(73, 73, 73);
+   
+
+}
+.learn:hover{
+    text-decoration: underline;
+}
+.foot{
+    margin-top: 15px;
+    margin-left: 25px;
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+}
+.submit{
+    margin-top: 15px;
+    margin-left: 133px;
+    height: 33px;
+    width: 180px;
+    font-size: 21px;
+    background: #47e751;
+    border-radius: 9px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.ar{
+    margin-top: 15px;
+    margin-left: 124px;
+    font-size: 20px;
+ 
+}
+.account{
+    text-decoration: none;
+    color: blue;
+}
+.account:hover{
+    text-decoration: underline;
+}
